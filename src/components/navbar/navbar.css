@@ -34,13 +34,14 @@
   display: inline-block;
   text-decoration: none;
   color: var(--text-color);
-  font-size: 1.4rem;
+  font-size: var(--font-size-text-1);
   transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: var(--color-primary-dark);
+  /* color: var(--color-primary-dark); */
+  text-decoration: underline;
 }
 
 .sub-nav {

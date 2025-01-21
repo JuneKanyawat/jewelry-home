@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 
-  font-family: "Quicksand", sans-serif;
+  font-family: "inter", sans-serif;
   letter-spacing: 0.05rem;
 }
 
@@ -14,6 +14,56 @@ html {
   /* percentage of user's browser font-size setting */
   /* 1 rem = 10 px */
   font-size: 62.5%;
+}
 
-  /* background-color: rgb(255, 255, 255); */
+:root {
+  --primary-color: #d9d9d9;
+  --color-primary-dark: #989898;
+
+  --secondary-color: #8895e7;
+
+  --text-color: #393939;
+  --bg-color: #ffffff;
+
+  --icon-color-1: #333;
+  --icon-color-2: #adadad;
+
+  --color-grey-light-1: #f9f7f6;
+  --color-grey-light-2: #bbb;
+  --color-white: #ffffff;
+
+  --font-size-heading: 3.2rem;
+  --font-size-sub-heading: 2rem;
+  --font-size-text-1: 1.6rem;
+  --font-size-text-2: 1.4rem;
+}
+
+.heading-primary {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 2.4rem;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 100rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
 }

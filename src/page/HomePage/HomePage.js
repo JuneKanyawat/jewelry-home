@@ -1,10 +1,11 @@
 import React from "react";
-import NavBar from "../../components/navbar/navbar.jsx";
-import SlideShow from "../../components/slideshow/slideshow.jsx";
-import NewProduct from "../../components/NewProduct/NewProduct.jsx";
-import PopoularProduct from "../../components/PopoularProduct/PopoularProduct.jsx";
+import NavBar from "../../components/navbar/navbar.js";
+import SlideShow from "../../components/slideshow/slideshow.js";
+import NewProduct from "../../components/NewProduct/NewProduct.js";
+import PopoularProduct from "../../components/PopoularProduct/PopoularProduct.js";
+import SeasonalProduct from "../../components/SeasonalProduct/SeasonalProduct.js";
 
-import Footer from "../../components/footer/footer.jsx";
+import Footer from "../../components/footer/footer.js";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <SlideShow />
       <NewProduct />
       <PopoularProduct />
+      <SeasonalProduct />
       <Footer />
     </div>
   );

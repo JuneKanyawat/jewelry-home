@@ -1,11 +1,11 @@
-.slideshow-container {
+.slideshow-section {
   position: relative;
-  width: 80%;
-  max-width: 60rem;
+  width: 100%;
+  max-width: 100rem;
   margin: auto;
   overflow: hidden;
 
-  padding: 2.4rem 0;
+  padding: 3.2rem 0 6.4rem 0;
 }
 
 .image-wrapper {
@@ -34,6 +34,14 @@
   font-size: 1.5rem;
 }
 
+.slideshow-btn:hover {
+  color: var(--icon-color-1);
+}
+
+.slideshow-btn:last-child {
+  /* border-left: 0.1rem solid var(); */
+}
+
 .dots-container {
   display: flex;
   justify-content: center;
@@ -51,4 +59,13 @@
 
 .dot.active-dot {
   background-color: var(--icon-color-2);
+}
+
+.dot.active-dot:hover {
+  background-color: var(--icon-color-1);
+  border: 0.1rem solid var(--icon-color-1);
+}
+
+.dot:hover {
+  border: 0.1rem solid var(--icon-color-1);
 }

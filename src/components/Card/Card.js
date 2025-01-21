@@ -3,7 +3,7 @@ import "./Card.css";
 
 function Card({ image, name, price }) {
   return (
-    <div className="card">
+    <div>
       <figure className="gallery-item">
         <img src={image} alt={name} />
       </figure>
