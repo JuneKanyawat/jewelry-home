@@ -1,0 +1,29 @@
+/* Section Container */
+.newproduct-section {
+  padding: 3.2rem 0;
+}
+
+/* Links */
+.link-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0;
+  margin: 0 0 2.4rem 0;
+}
+
+.link-list li {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+  /* padding: 0 4.8rem; */
+}

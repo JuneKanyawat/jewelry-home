@@ -1,0 +1,14 @@
+.popular-section {
+  padding: 3.2rem 0;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.product {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  background-color: #d3d3d3; /* Light gray color */
+}

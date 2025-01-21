@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.gallery-item {
+  overflow: hidden;
+  margin-bottom: 1.6rem;
+}
+
+.gallery-item img {
+  display: block;
+  width: 80%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.card-name {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  color: #333;
+}
