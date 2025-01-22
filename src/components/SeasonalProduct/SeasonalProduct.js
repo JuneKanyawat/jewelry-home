@@ -7,7 +7,7 @@ function SeasonalProduct() {
       heading: "Seasonal coming ",
       content:
         "A letter is a message written for a variety of purposes, from friendly to formal. They can help maintain bonds between friends, especially if they’re far apart. Letters are also used by professionals to communicate their concerns. In some schools",
-      buttonText: "SHOP NOW",
+      buttonText: "BUY NOW",
       image:
         "https://media-hosting.imagekit.io//a7901b6a6e1f4fea/Untitled_Artwork%2017.jpg?Expires=1832086611&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nPr4i71KF7E6NJ~HSUr53BfDuX-szfRECUfW1VftoyUw~E7qwGcDMc4GEZ~5hfkv7kGpUMXjy-Cjh8LHVSudRz-AVf4BRsXj38LwVKo-iHpEPmOAFtrepyMW2mgccAxsi2oypiayQYWaboiWm0ZEJyVwEQ6OPK6sMM3r0Wd-r4NalJ0g4gyfFSQQGo20H9M3kLObu-Pk5iY1F3CR84Pd5PCoPW9zW1-PNJk6Uis6h-pZctzqw6maSmoiNeQdN7AvQ0tGgSdiah3dTzsw87N52x~9NRaP3ymMxCKMj2r5bSwaoHT-ghxFE8QTEUCtcPAr3ui0YLKIw5Y0hCK-Xr~nng__", // Replace with your actual image URL
     },
